@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #3586ff;
+    overflow: hidden;
+  }
+  section .air{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+    background-size: 1000px 100px
+  }
+  section .air.air1{
+    animation: wave 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+  }
+  section .air.air2{
+    animation: wave2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+  }
+  section .air.air3{
+    animation: wave 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+  }
+  section .air.air4{
+    animation: wave2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+  }
+  @keyframes wave{
+    0%{
+      background-position-x: 0px; 
+    }
+    100%{
+      background-position-x: 1000px; 
+    }
+  }
+  @keyframes wave2{
+    0%{
+      background-position-x: 0px; 
+    }
+    100%{
+      background-position-x: -1000px; 
+    }
+  }
+
+.header {
+    height: 75px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content:flex-end;
+    gap: 80px;
+    padding-top: 25px;
+    list-style: none;
+    padding-right: 60px;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    height: 600px;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    padding-top: 100px;
+    padding-left: 40px;
+    font-size: 65px;
+}
+
+h3 {
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+
+.name {
+    font-family: 'Brush Script MT';
+    font-size: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text {
+    color: white;
+    padding-top: 60px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.top {
+    height: 100px;
+    background: linear-gradient(white, #3586ff);
+}
+
+#aboutMe {
+    font-size: 50px;
+}
+
+.txt {
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.info {
+    width: 80%;
+}
+
+.imgg {
+    width: 100%;
+    height: 100%;
+}
+
+.knowledge {
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 140px;
+    padding-bottom: 40px;
+}
+
+.img-top, .img-bottom {
+    display: flex;
+}
+
+.img-top {
+    justify-content: space-evenly;
+}
+
+.img-bottom {
+    padding-top: 40px;
+    justify-content: center;
+    gap: 120px;
+}
+
+.img, .img2 {
+    width: 170px;
+}
+
+.top2 {
+    height: 200px;
+    background: linear-gradient(white, #3586ff);
+}
+
+.contactImg {
+    width: 175px;
+}
+
+#contact {
+    padding-top: 0px;
+}
+
+.contactInfo {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding-left: 7%;
+}
+
+.contactt {
+    width: 40%;
+    padding-top: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.p1 {
+    padding-top: 35%;
+}
+
+.p2 {
+    padding-top: 60%;
+}
+
+.imgsText > p {
+    color: white;
+    font-size: 20px;
+}
+
+.projects {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.projectTitle {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.user {
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+}
